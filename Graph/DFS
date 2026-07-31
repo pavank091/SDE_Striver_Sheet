@@ -1,0 +1,23 @@
+class Solution {
+  public:
+  
+  void dfsRes(vector<vector<int>>& adj, vector<bool>& visited, int node, vector<int>& res){
+      visited[node] = true;
+      res.push_back(node);
+      
+      for(int next : adj[node]){
+          
+          if(!visited[next])
+          dfsRes(adj, visited, next, res);
+      }
+  }
+    vector<int> dfs(vector<vector<int>>& adj) {
+        
+        int V = adj.size();
+        vector<bool> visited(V,false);
+        vector<int> res;
+        dfsRes(adj, visited, 0, res);
+        return res;
+        
+    }
+};
