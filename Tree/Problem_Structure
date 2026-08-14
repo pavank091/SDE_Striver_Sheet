@@ -1,0 +1,57 @@
+Tree/
+│
+├── 00-Tree-Basics/
+│   ├── tree-traversal.md
+│   ├── height-depth.md
+│   ├── diameter.md
+│   └── balanced-tree.md
+│
+├── 01-DFS-Patterns/
+│   ├── preorder/
+│   ├── inorder/
+│   ├── postorder/
+│   └── recursive-dfs/
+│
+├── 02-BFS-Patterns/
+│   ├── level-order/
+│   ├── zigzag/
+│   ├── vertical-order/
+│   └── boundary-traversal/
+│
+├── 03-Binary-Tree/
+│   ├── maximum-depth/
+│   ├── diameter/
+│   ├── balanced-tree/
+│   ├── identical-tree/
+│   └── symmetric-tree/
+│
+├── 04-Path-Problems/
+│   ├── root-to-node/
+│   ├── root-to-leaf/
+│   ├── path-sum/
+│   └── maximum-path-sum/
+│
+├── 05-LCA/
+│   ├── lca-binary-tree/
+│   └── lca-bst/
+│
+├── 06-BST/
+│   ├── search/
+│   ├── insert/
+│   ├── delete/
+│   ├── validate-bst/
+│   ├── kth-smallest/
+│   └── bst-iterator/
+│
+├── 07-Tree-Views/
+│   ├── top-view/
+│   ├── bottom-view/
+│   ├── left-view/
+│   └── right-view/
+│
+├── 08-Construction/
+│   ├── inorder-preorder/
+│   ├── inorder-postorder/
+│   └── serialize-deserialize/
+│
+└── README.md
